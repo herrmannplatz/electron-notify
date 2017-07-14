@@ -1,0 +1,24 @@
+{
+  "name": "electron-notify",
+  "version": "1.0.0",
+  "description": "Send HTML5 Notifications from the main process",
+  "keywords": [
+    "electron",
+    "app",
+    "notifications",
+    "notification"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "electron test.js"
+  },
+  "author": {
+    "name": "René Herrmann",
+    "email": "rene@herrmannplatz.de",
+    "url": "herrmannplatz.de"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.6.11"
+  }
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+  const {ipcRenderer} = require('electron');
+
+  ipcRenderer.on('main-notification', (event, {title, body, icon}) => {
+    new Notification(title, {body, icon});
+  });
+</script>
+</body>
+</html>
