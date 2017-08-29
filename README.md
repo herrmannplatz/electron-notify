@@ -9,7 +9,7 @@ npm install electron-notify --save
 
 ### Usage
 
-```
+```javascript
 const {app} = require('electron');
 const notify = require('electron-notify');
 
